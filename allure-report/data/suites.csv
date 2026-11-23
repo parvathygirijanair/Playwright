@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3592","@sanity @login user see the validation error when username is missing","","2026-11-10","passed","2026-11-10","Sauce Demo Login Module","Tag\tag.spec.js","",""
+"","4973","@smoke loginwith valid crediantial should redirect to inventory page","","2026-11-10","passed","2026-11-10","Sauce Demo Login Module","Tag\tag.spec.js","",""
+"","4823","@regression Login with invalid credential to show error message","","2026-11-10","passed","2026-11-10","Sauce Demo Login Module","Tag\tag.spec.js","",""

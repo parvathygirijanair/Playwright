@@ -1,0 +1,13 @@
+{
+  "username": "sibi@gmail.com",
+  "password": "admin@123",
+"name": "sibi",
+"interest": ["Cypress", "Java", "API"],
+"gender": "Male",
+"address": {
+    "area" : "Alleppy",
+    "city" : "Kerala",
+    "pincode": 5566992
+}
+}
+

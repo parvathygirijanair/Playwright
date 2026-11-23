@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="32.752601">
+<testsuite name="POM3\ecommerce.spec.js" timestamp="2026-11-22T10:27:03.187Z" hostname="" tests="1" failures="0" skipped="0" time="30.353" errors="0">
+<testcase name="E-commerce shopping workflow" classname="POM3\ecommerce.spec.js" time="30.353">
+</testcase>
+</testsuite>
+</testsuites>
