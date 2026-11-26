@@ -1,0 +1,30 @@
+{
+    "name": "q3-cucumber-playwright-bdd",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Cucumber BDD automation for Demo Web Shop using Playwright and the Page Object Model",
+    "scripts": {
+        "test": "cucumber-js",
+        "test:sequential": "cucumber-js --parallel 1",
+        "test:parallel": "cucumber-js --parallel 2",
+        "test:registration": "cucumber-js --tags @Registration",
+        "test:login": "cucumber-js --tags @Login",
+        "test:wishlist": "cucumber-js --tags @Wishlist",
+        "test:email": "cucumber-js --tags @EmailFriend",
+        "test:account": "cucumber-js --tags \"@Registration or @Login\"",
+        "test:shopping": "cucumber-js --tags \"@Wishlist or @EmailFriend\""
+    },
+    "devDependencies": {
+        "@cucumber/cucumber": "^13.3.0",
+        "@playwright/test": "^1.65.1"
+    },
+    "dependencies": {
+        "@faker-js/faker": "^10.6.0",
+        "exceljs": "^4.4.0"
+    },
+    "overrides": {
+        "exceljs": {
+            "uuid": "^11.1.1"
+        }
+    }
+}
